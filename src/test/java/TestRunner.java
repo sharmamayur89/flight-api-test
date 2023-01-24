@@ -6,7 +6,7 @@ import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/java/booking-api-feature/"}, glue = {"api.steps"},
+@CucumberOptions(features = {"src/test/resources/booking-api-feature/"}, glue = {"api.steps"},
         plugin = {"pretty",
                 "html:TestReports/cucumber-reports/cucumber-report.html",
                 "json:TestReports/cucumber-reports/cucumber.json",
